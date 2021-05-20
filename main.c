@@ -36,7 +36,7 @@ int main()
             }
             else
             {
-                glob_t     g;
+                glob_t g;
                 int retour_glob=glob(tmp,0,NULL,&g);
                 if (retour_glob==0)
                 {
